@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+    devise_for :users
     root to: 'pages#home'
     get 'about', to: 'pages#about' # pages controller - about action
     resources :contacts, only: :create # was [:new, :create], but would have two 'new'
