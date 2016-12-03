@@ -17,7 +17,7 @@
 @import 'bootstrap';
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
- 
+
 // Typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
@@ -77,4 +77,8 @@ h1, h2, h3 {
 
 .alert-notice {
     display: none;
+}
+
+.home-signup-links {
+  margin-top: 30px;
 }
