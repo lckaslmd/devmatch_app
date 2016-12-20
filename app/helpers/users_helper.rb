@@ -7,5 +7,6 @@ module UsersHelper
         elsif @user.profile.job_title == "Investor"
             "<i class='fa fa-dollar'>".html_safe
         end
+# <h3><span class="job-title-icon"><%= #job_title_icon %></span><%= @user.profile.job_title %></h3>        
     end
-end    
+end
